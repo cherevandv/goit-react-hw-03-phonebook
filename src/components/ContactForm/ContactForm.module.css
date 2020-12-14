@@ -1,0 +1,13 @@
+.form {
+  padding: 20px 160px 10px 6px;
+  border: 1px solid #000;
+  border-radius: 2px;
+}
+
+.label {
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: none;
+}

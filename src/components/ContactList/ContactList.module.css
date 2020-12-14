@@ -1,0 +1,17 @@
+ul {
+  padding: 0;
+}
+
+li {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 0.5;
+}
+
+button {
+  height: 22px;
+}
