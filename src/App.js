@@ -21,7 +21,7 @@ class App extends Component {
   componentDidMount() {
     const data = localStorage.getItem('contacts');
     const parsedData = JSON.parse(data);
-    parsedData.length === 0
+    data === null || parsedData.length === 0
       ? this.setState({ contacts: initialData })
       : this.setState({ contacts: parsedData });
   }
